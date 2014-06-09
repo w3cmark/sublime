@@ -1,2 +1,2 @@
-PC_snippets
+snippets
 ===========
