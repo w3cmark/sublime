@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+${1}::-webkit-input-placeholder{color:#${2};}
+${1}::-moz-placeholder{color:#${2};}
+${1}::-moz-placeholder{color:#${2};}
+${1}::-ms-input-placeholder{color:#${2};}
+]]></content>
+	<tabTrigger>placeholder</tabTrigger>
+	<description>输入框提示颜色</description>
+	<scope>source.css</scope>
+</snippet>

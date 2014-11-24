@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+.transform(@arg){
+    -moz-transform:@arg;
+    -webkit-transform:@arg;
+    -o-transform:@arg;
+    -ms-transform:@arg;
+    transform:@arg;
+}
+]]></content>
+	<tabTrigger>transform</tabTrigger>
+	<description>transform动画</description>
+	<scope>source.less</scope>
+</snippet>

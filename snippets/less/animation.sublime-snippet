@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+.animation(@arg){
+	-moz-animation:@arg;
+	-webkit-animation:@arg;
+	-o-animation:@arg;
+	-ms-animation:@arg;
+	animation:@arg;
+}
+]]></content>
+	<tabTrigger>animation</tabTrigger>
+	<description>创建动画</description>
+	<scope>source.less</scope>
+</snippet>

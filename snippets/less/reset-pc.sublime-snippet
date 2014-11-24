@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+@charset "gb2312";
+/*= reset*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;padding:0;vertical-align:baseline;}
+:focus {outline:0;}
+ol,ul,li {list-style:none;}
+i,em{font-style:normal;}
+img{vertical-align:top;}
+table {border-collapse:collapse;border-spacing:0;}
+/*= html5*/
+article,aside,audio,bdi,canvas,command,datalist,details,figcaption,figure,footer,header,hgroup,keygen,mark,meter,nav,output,progress,rp,rt,ruby,section,source,summary,time,track,vedio {display:block}
+/*= base*/
+html,body{height:100%;}
+body{color:#000;font:12px/170% simsun,arial,"Lucida Grande","Lucida Sans Unicode";}
+a {text-decoration:none;}
+a:hover{text-decoration:underline;color:#e1b858}
+#NIE-topBar {height:55px;} 
+.clr:after{clear: both;content:'\0020';display: block;visibility:hidden;height:0;}
+.clr{zoom:1;}
+.hide {display:none;}
+.ht{text-indent:-9999px;overflow:hidden;}
+.cbtn { display: block; text-indent: -999em; overflow: hidden; background: url(../images/spr.png) -9999px -9999px no-repeat; }
+
+.wrap {width:100%;min-width:1200px;_width:~'expression((document.documentElement.clientWidth<1200||document.body.clientWidth<1200)?"1200px":"100%")';overflow:hidden;background-color:#081120;}
+]]></content>
+	<tabTrigger>reset-pc</tabTrigger>
+	<description>PC页面初始化</description>
+	<scope>source.less</scope>
+</snippet>

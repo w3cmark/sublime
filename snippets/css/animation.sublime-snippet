@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+-webkit-animation:${1} 1s;
+-moz-animation:${1} 1s;
+-ms-animation:${1} 1s;
+-o-animation:${1} 1s;
+animation:${1} 1s;
+]]></content>
+	<tabTrigger>animation</tabTrigger>
+	<description>创建动画</description>
+	<scope>source.css</scope>
+</snippet>

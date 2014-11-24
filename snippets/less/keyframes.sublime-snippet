@@ -1,0 +1,39 @@
+<snippet>
+	<content><![CDATA[
+.animation(@arg){
+    -moz-animation:@arg;
+    -webkit-animation:@arg;
+    -o-animation:@arg;
+    -ms-animation:@arg;
+    animation:@arg;
+}
+.keyframes(@name) { 
+    @-webkit-keyframes @name {
+        .-frames(-webkit-)
+    }
+    @-moz-keyframes @name {
+        .-frames(-moz-)
+    }
+    @-o-keyframes @name {
+        .-frames(-o-)
+    }
+    @-ms-keyframes @name {
+        .-frames(-ms-)
+    }
+    @keyframes @name {
+        .-frames()
+    }
+}
+&{//箭头上下循环动作
+    .keyframes(arrMove);
+    .-frames(@-...){
+        0% {bottom: 7px;}
+        50% {bottom: 15px;}
+        100% {bottom: 7px;}
+    }
+}
+]]></content>
+	<tabTrigger>keyframes</tabTrigger>
+	<description>创建动画</description>
+	<scope>source.less</scope>
+</snippet>

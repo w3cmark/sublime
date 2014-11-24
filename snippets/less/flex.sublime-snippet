@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+.flex(@arg){
+	-moz-box-flex: @arg;
+	-webkit-box-flex: @arg;
+	-ms-flex: @arg;
+	flex: @arg;
+}
+.flexbox(){
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flexbox;
+}
+]]></content>
+	<tabTrigger>flex</tabTrigger>
+	<description>弹性布局</description>
+	<scope>source.less</scope>
+</snippet>

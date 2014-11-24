@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+@keyframes ${1}{
+    0%,100%{${2}}
+}
+@-webkit-keyframes ${1}{
+    0%,100%{${2}}
+}
+@-moz-keyframes ${1}{
+    0%,100%{${2}}
+}
+@-ms-keyframes ${1}{
+    0%,100%{${2}}
+}
+@-0-keyframes ${1}{
+    0%,100%{${2}}
+}
+]]></content>
+	<tabTrigger>keyframes</tabTrigger>
+	<description>创建动画</description>
+	<scope>source.css</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+.opacity(@number){
+    opacity: @number / 100;
+    filter:alpha(opacity=@number);
+}
+]]></content>
+	<tabTrigger>opacity</tabTrigger>
+	<description>透明度</description>
+	<scope>source.less</scope>
+</snippet>

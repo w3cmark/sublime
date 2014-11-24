@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0, transparent),color-stop(1, black));
+background-image:-webkit-linear-gradient(top,rgba(181,188,193,0),rgba(181,188,193,1));
+background-image:linear-gradient(to bottom,rgba(181,188,193,0),rgba(181,188,193,1));
+]]></content>
+	<tabTrigger>gradient</tabTrigger>
+	<description>背景渐变</description>
+	<scope>source.css</scope>
+</snippet>

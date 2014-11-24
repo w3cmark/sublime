@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+position: absolute;
+content:'';
+width:0;
+height:0;
+right:${1:0}px;
+top:${2:0}px;
+border-width:${3:10}px;
+border-style:solid;
+border-color:transparent transparent #${4:fff} transparent;
+]]></content>
+	<tabTrigger>triangle</tabTrigger>
+	<description>三角形</description>
+	<scope>source.less</scope>
+</snippet>

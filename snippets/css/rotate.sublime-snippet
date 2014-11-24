@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+-webkit-transform:rotate(-${1:45}deg);
+-moz-transform:rotate(-${1:45}deg);
+-ms-transform:rotate(-${1:45}deg);
+-o-transform:rotate(-${1:45}deg);
+transform:rotate(-${1:45}deg);
+]]></content>
+	<tabTrigger>rotate</tabTrigger>
+	<description>旋转</description>
+	<scope>source.css</scope>
+</snippet>

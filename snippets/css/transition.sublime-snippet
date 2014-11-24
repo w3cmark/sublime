@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+-webkit-transition:all ${1:0.2}s ease-out;
+-o-transition:all ${1:0.2}s ease-out;
+-ms-transition:all ${1:0.2}s ease-out;
+-moz-transition:all ${1:0.2}s ease-out;
+transition:all ${1:0.2}s ease-out;
+]]></content>
+	<tabTrigger>transition</tabTrigger>
+	<description>动画过渡</description>
+	<scope>source.css</scope>
+</snippet>
